@@ -1,9 +1,7 @@
-from skimage.measure import compare_ssim
-
 import cv2
 from skimage.feature import hog
 from skimage import exposure
-import numpy as np
+
 
 cap = cv2.VideoCapture(0)
 
